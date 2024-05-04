@@ -1,0 +1,53 @@
+QWidget {
+    background-color: #2d2d30;
+    color: #ffffff;
+    font-family: "", sans-serif;
+    font-size: 10pt;
+}
+
+QPushButton {
+    background-color: #3d3d40;
+    border: 1px solid #3d3d40;
+    border-radius: 2px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+QPushButton:hover {
+    background-color: #57575c;
+}
+
+QPushButton:pressed {
+    background-color: #1d1d20;
+}
+
+QLineEdit {
+    border: 1px solid #57575c;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #2d2d30;
+    color: #ffffff;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 8px;
+    background: #3d3d40;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #2d2d30;
+    border: 1px solid #5c5c5c;
+    width: 18px;
+    margin: -2px 0;
+    border-radius: 3px;
+}
+
+QLabel {
+    font-size: 9pt;
+}
+
+QFileDialog {
+    background-color: #2d2d30;
+}
